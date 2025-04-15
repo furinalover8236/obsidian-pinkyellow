@@ -1,13 +1,17 @@
 body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
+	--accent-h: 312;
+	--accent-s: 74%;
+	--accent-l: 82%;
+	--text-normal: #fbef8d;
+	--text-muted: #f3afe5;
+	--divider-color: #f3afe5;
+	--status-bar-background: #211421;
+	--titlebar-background-focused: #211421;
+	--scrollbar-bg: #fbef8d;
+	--dropdown-background: #8a6282;
+	--dropdown-background-hover: #f3afe5;
+	--slider-track-background: #f3afe5;
+	--toggle-thumb-color: #fbef8d;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -32,3 +36,16 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
+
+.theme-dark {
+	--background-primary: #211421;
+	--background-secondary: #211421;
+	--background-modifier-form-field: #211421;
+	--interactive-normal: #f3afe5;
+	--text-error: #8a6282;
+  }
+  
+  .theme-light {
+	--background-primary: #fee4ff;
+	--background-secondary: #ffc9fc;
+  }
